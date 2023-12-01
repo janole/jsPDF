@@ -1334,8 +1334,7 @@ var AcroFormField = function() {
     get: function() {
       if (
         !_DA ||
-        this instanceof AcroFormChildClass ||
-        this instanceof AcroFormTextField
+        this instanceof AcroFormChildClass
       ) {
         return undefined;
       }
